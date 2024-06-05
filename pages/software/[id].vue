@@ -7,6 +7,7 @@ Você está em {{ idParams }}
 <script setup>
 definePageMeta({
     layout: 'exibicao',
+    middleware: 'software',
 });
 
 const router = useRoute();
