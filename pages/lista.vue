@@ -1,7 +1,5 @@
 <template>
-    <v-app>
-      <Header />
-    </v-app>
+    <h1>Lista</h1>
 </template>
 
 <script>
