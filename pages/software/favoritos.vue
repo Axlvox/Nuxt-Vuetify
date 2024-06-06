@@ -1,6 +1,7 @@
 <template>
     <div>
 Favoritos
+<index />
     </div>
 </template>
 

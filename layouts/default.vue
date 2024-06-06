@@ -1,9 +1,8 @@
 <template>
-    <v-app>
-    <div>
+    <v-app theme="light">
+    <v-container class="align-center p-5">
+        <Navbar />
         <slot></slot>
-        Layout Padrão
-        Rodapé Padrão
-    </div>
+    </v-container>
 </v-app>
 </template>
