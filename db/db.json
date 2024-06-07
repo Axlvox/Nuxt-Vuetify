@@ -1,36 +1,41 @@
 {
-    "GRV": {
-        "softwares": [
-    {
-      "id": 1,
-      "title": "GRV Sensor",
-      "descricao": "O GRV Sensor monitora em tempo real e coleta dados das máquinas, fornecendo informações precisas para gestão eficiente. Possibilita saber o tempo de produção, implementando melhorias para reduzir setup e otimizar a capacidade.",
-      "imagem": "https://cdn-icons-png.flaticon.com/512/1340/1340014.png"
-    },
-    {
-      "id": 2,
-      "title": "GRV Connect",
-      "descricao": "O GRV Connect permite o acompanhamento e gerenciamento da produção através de um aplicativo para computadores e tablets, tanto para operadores quanto supervisores, facilitando a distribuição de tarefas e reduzindo o tempo de entrega.",
-      "imagem": "https://i.imgur.com/rk8XODq.png"
-    },
-    {
-      "id": 3,
-      "title": "GRV Vision",
-      "descricao": "O GRV Vision oferece gestão à vista, permitindo visualizar o estado das máquinas e sequência programada. Contribui para trabalho em equipe, compartilhamento de resultados e tomada de decisões rápidas.",
-      "imagem": "https://i.imgur.com/tOC3mXd.png"
-    },
-    {
-      "id": 4,
-      "title": "GRV DDO",
-      "descricao": "O GRV DDO é um método de programação da fábrica que possibilita a distribuição e agendamento de operações, baseado em WLC e Lean Manufacturing, otimizando a produção e reduzindo custos.",
-      "imagem": "https://grvsoftware.com.br/wp-content/themes/yootheme/cache/grvddo-e7a5b3d6.png"
-    },
-    {
-      "id": 5,
-      "title": "GRV Follow Up",
-      "descricao": "O GRV Follow Up é um aplicativo de celular que permite acompanhar o andamento da produção, agilizando as respostas aos clientes e evitando contatos constantes para atualização do andamento da fabricação.",
-      "imagem": "https://i.imgur.com/apPDe4O.png"
-    }
-]
-}
+  "GRV": {
+    "softwares": [
+      {
+        "id": 1,
+        "title": "GRV Sensor",
+        "subtitle": "Monitoramento em Tempo Real",
+        "descricao": "O GRV Sensor monitora em tempo real e coleta dados das máquinas, fornecendo informações precisas para gestão eficiente. Possibilita saber o tempo de produção, implementando melhorias para reduzir setup e otimizar a capacidade.",
+        "imagem": "https://cdn-icons-png.flaticon.com/512/1340/1340014.png"
+      },
+      {
+        "id": 2,
+        "title": "GRV Connect",
+        "subtitle": "Acompanhamento e Gerenciamento",
+        "descricao": "O GRV Connect permite o acompanhamento e gerenciamento da produção através de um aplicativo para computadores e tablets, tanto para operadores quanto supervisores, facilitando a distribuição de tarefas e reduzindo o tempo de entrega.",
+        "imagem": "https://i.imgur.com/rk8XODq.png"
+      },
+      {
+        "id": 3,
+        "title": "GRV Vision",
+        "subtitle": "Gestão à Vista",
+        "descricao": "O GRV Vision oferece gestão à vista, permitindo visualizar o estado das máquinas e sequência programada. Contribui para trabalho em equipe, compartilhamento de resultados e tomada de decisões rápidas.",
+        "imagem": "https://i.imgur.com/tOC3mXd.png"
+      },
+      {
+        "id": 4,
+        "title": "GRV DDO",
+        "subtitle": "Programação da Fábrica",
+        "descricao": "O GRV DDO é um método de programação da fábrica que possibilita a distribuição e agendamento de operações, baseado em WLC e Lean Manufacturing, otimizando a produção e reduzindo custos.",
+        "imagem": "https://grvsoftware.com.br/wp-content/themes/yootheme/cache/grvddo-e7a5b3d6.png"
+      },
+      {
+        "id": 5,
+        "title": "GRV Follow Up",
+        "subtitle": "Acompanhamento da Produção",
+        "descricao": "O GRV Follow Up é um aplicativo de celular que permite acompanhar o andamento da produção, agilizando as respostas aos clientes e evitando contatos constantes para atualização do andamento da fabricação.",
+        "imagem": "https://i.imgur.com/apPDe4O.png"
+      }
+    ]
+  }
 }

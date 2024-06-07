@@ -6,16 +6,11 @@
           <v-title text class="d-flex text-white text-center bg-cyan-darken-1">
             <v-card-title class="flex-grow-1">{{ software.title }}     
               </v-card-title>     
-              <NuxtLink :to="{
-                name: 'software-id',
-                params: { id: software.title }
-              }">    
 <v-btn
         color="blue-white"
         icon="mdi-open-in-new"
         variant="text"
-      ></v-btn>
-    </NuxtLink>
+      ></v-btn> 
 </v-title>
 
           <v-img 

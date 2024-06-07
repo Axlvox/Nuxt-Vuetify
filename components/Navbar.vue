@@ -3,7 +3,13 @@
     <v-toolbar 
     flat color="#5F4BB6" 
     class="border-b" 
-    >
+    image="https://i.imgur.com/nypnfwY.jpeg">
+    
+    <template v-slot:image>
+          <v-img
+            gradient="to top right, rgba(19,84,122,.8), rgba(128,208,199,.8)"
+          ></v-img>
+        </template>
     <v-app-bar-nav-icon class="ms-2"></v-app-bar-nav-icon>
 
     <v-spacer></v-spacer>
@@ -30,28 +36,7 @@
       
   </v-toolbar>
 </v-app-bar>
-    
-    <!-- <v-app-bar flat color="#5F4BB6" class="border-b">
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-      <v-app-title>Menu</v-app-title>
-      <NuxtLink
-      v-for="rota in rotas()"
-      :key="rota.nome"
-      :to="rota.path"
-      class="px-10 text-white">
-      {{ rota.nome }}
-    </NuxtLink>
-      <v-spacer></v-spacer>
-        <v-badge class="mr-5" :content="6">
-          <v-icon icon="mdi-bell-outline"></v-icon>
-        </v-badge>
-      <v-avatar class="mr-5">
-          <v-img 
-          class=""
-          cover 
-          src="https://cdn3.iconfinder.com/data/icons/avatar-set/512/Avatar11-512.png"></v-img>
-        </v-avatar>
-    </v-app-bar> -->
+
     <v-main></v-main>
 
 </template>

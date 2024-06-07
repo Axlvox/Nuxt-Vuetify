@@ -2,7 +2,11 @@
     <v-app>
     <div>
        <Navbar />
-        <NuxtLink to="/">Voltar</NuxtLink>
+        <NuxtLink to="/">
+            <v-btn
+      prepend-icon="mdi-arrow-left-bottom"
+    >VOLTAR</v-btn>
+        </NuxtLink>
         <slot></slot>
         Layout Padrão
         Rodapé Padrão
