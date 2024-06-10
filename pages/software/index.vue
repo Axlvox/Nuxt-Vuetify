@@ -3,12 +3,14 @@
     <v-row>
       <v-col cols="12" sm="4" md="5" lg="3" v-for="software in softwares" :key="software.id">
         <v-card class="d-flex flex-column">
-          <v-card-title class="d-flex text-white text-center bg-cyan-darken-1">
+          <v-title class="d-flex text-white text-center bg-cyan-darken-1">
+            <v-card-title class="flex-grow-1">
             {{ software.title }}
-            <NuxtLink :to="{ name: 'software-title', params: { title: software.title.toLowerCase().replace(/\s+/g, '-') } }">
-              <v-btn color="blue-white" icon="mdi-open-in-new" variant="text"></v-btn>
-            </NuxtLink>
           </v-card-title>
+            <NuxtLink :to="{ name: 'software-title', params: { title: software.title.toLowerCase().replace(/\s+/g, '-') } }">
+              <v-btn color="blue-white" icon="mdi-open-in-new" variant="text" class="text-white"></v-btn>
+            </NuxtLink>
+          </v-title>
           <v-img :src="software.imagem" class="card-img-top" :alt="software.title" height="200px"></v-img>
           <v-card-subtitle class="justify-center text-center">{{ software.subtitle }}</v-card-subtitle>
           <v-expansion-panels v-model="panel" multiple>

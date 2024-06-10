@@ -24,7 +24,7 @@
       <v-btn variant="text">{{ rota.nome }}</v-btn>
       <v-divider vertical></v-divider>
     </NuxtLink>
-        <v-badge class="mr-5" :content="6">
+        <!-- <v-badge class="mr-5" :content="6">
           <v-icon icon="mdi-bell-outline"></v-icon>
         </v-badge>
       <v-avatar class="mr-5">
@@ -32,7 +32,7 @@
           class=""
           cover 
           src="https://cdn3.iconfinder.com/data/icons/avatar-set/512/Avatar11-512.png"></v-img>
-        </v-avatar>
+        </v-avatar> -->
       
   </v-toolbar>
 </v-app-bar>
